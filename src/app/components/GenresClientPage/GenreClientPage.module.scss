@@ -1,0 +1,34 @@
+.flex{
+  display: flex;
+  gap: 20px;
+
+}
+.genres{
+  width: 150px;
+  flex-shrink: 0;
+}
+.movies{
+  width: 100%;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 40px;
+}
+.link{
+  border-radius: 0;
+  border: 0;
+  background: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.disabled{
+  cursor: default;
+  opacity: 0.5;
+}
